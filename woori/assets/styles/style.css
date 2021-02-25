@@ -1,0 +1,130 @@
+@media screen and (max-width: 360px) {
+    #content,
+    header {
+        width: 100%;
+        padding: 0;
+    }
+}
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Kalam', cursive;
+    background-color: #D49D7F;
+}
+header{
+    display: flex ;
+    background-color: #457A8C;
+    width: 100%;
+    top: 0;
+    position: sticky;
+}
+.flex-container-row {
+    display: flex;
+
+    max-height: 100px;
+}
+footer{
+    display: flex;
+    padding: 20px;
+    color: white;
+    background-color: #598AEB;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+}
+.logo{
+    width: auto;
+    height: 100px;
+    padding: 10px;
+}
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover {
+    font-weight: bold;
+}
+nav li {
+    display: inline;
+}
+nav:last-of-type{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding-right: 5%;
+}
+h1{
+    display: flex;
+    color: white;
+    text-align: left;
+    align-items: center;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.productPhoto{
+    width: auto;
+    max-height: 300px;
+    margin-left: 40%;
+}
+h3#planner2021{
+    color: white;
+    text-align: center;
+}
+#product{
+    display: flex;
+    order: 2;
+}
+#ourProduct{
+    flex-basis: 75%;
+    padding-top: 5%;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #457A8C;
+}
+.artikel{
+    background-color: #7499A1;
+}
+blockquote{
+    padding-left: 25%;
+    max-width: 70%;
+    text-align: center;
+    color: white;
+}
+ul#finplan{
+    text-decoration: none;
+    color: white;
+    padding-left: 40%;
+}
+#about{
+    display: flex;
+    color: white;
+}
+.sellerPhoto{
+    width: auto;
+    max-height: 300px;
+    padding-left: 10%;
+}
+.sellerDesc{
+    padding-left: 10%;
+    padding-top: 5%;
+}
+#contact{
+    display: flex;
+    justify-content: flex-end;
+}
+#profpict{
+    width: auto;
+    max-height: 300px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
